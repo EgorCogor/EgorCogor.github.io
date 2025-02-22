@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+.games, .apps {
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+}
+.promo {
+    text-align: center;
+    padding: 50px;
+    background-color: #ddd;
+}
+.promo {
+    display: inline-block;
+    padding: 400px 700px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.footer-links a {
+    color: #000000;
+    margin: 0 15px;
+    text-decoration: none;
+}
